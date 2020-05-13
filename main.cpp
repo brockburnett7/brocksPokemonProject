@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "Pokemon.h"
 using namespace std;
 
 int numOptions = 4;
