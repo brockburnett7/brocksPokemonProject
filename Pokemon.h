@@ -7,12 +7,16 @@ using namespace std;
 class Pokemon {
     public:
         Pokemon();
-        Pokemon(int ID, string name, string type);
+        Pokemon(int ID, string name, string type1, string type2, int evolution, int catchRate);
         ~Pokemon();
     
     private:
-        int pokeID;
         string pokeName;
-        string pokeType;
+        int pokeID; 
+        string pokeType1;
+        string pokeType2;
+        int evolveLevel;
+        int catchDifficulty;
+
 };
 #endif

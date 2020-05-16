@@ -6,14 +6,21 @@ using namespace std;
 Pokemon::Pokemon() {
     pokeID = 0;
     pokeName = "";
-    pokeType = "";
+    pokeType1 = "";
+    pokeType2 = "";
+    evolveLevel = 0;
+    catchDifficulty = 0;
 }
 
-Pokemon::Pokemon(int ID, string name, string type) {
+Pokemon::Pokemon(int ID, string name, string type1, string type2, int evolution, int catchRate) {
     pokeID = ID;
     pokeName = name;
-    pokeType = type;
+    pokeType1 = type1;
+    pokeType2 = type2;
+    evolveLevel = evolution;
+    catchDifficulty = catchRate;
 }
+
 Pokemon::~Pokemon() {
     
 };
